@@ -7,6 +7,8 @@ body {
     color: #fff;
 }
 
+/* NAGŁÓWEK KOMPUTER */
+
 .header {
     background-color: #f74848;
 }
@@ -46,4 +48,41 @@ body {
 
 .header_menu .header_menu--list .header_menu--item:hover {
     background-color: #fa1616;
+}
+
+/* SMARTFON */
+@media only screen and (max-width: 500px) {
+    /* NAGŁÓWEK SMARTFON */
+    
+    .header .header_title {
+        font-size: 4em;
+    }
+    
+    .header_menu .header_menu--list .header_menu--item {
+        display: block;
+        border-bottom: 1px dashed #fff;
+        border-right: none;
+    }
+    
+    .header_menu .header_menu--list .header_menu--item:first-child {
+        border-top: 1px dashed #fff;
+        border-left: none;
+    }
+    
+    .header_menu .header_menu--list .header_menu--item .header_menu--link {
+        font-size: 2.0em;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1200px) {
+    /* NAGŁÓWEK TABLET */
+    
+    .header .header_title {
+        font-size: 3.5em;
+    }
+    
+    .header_menu .header_menu--list .header_menu--item .header_menu--link {
+        font-size: 1.75em;
+    }
 }
