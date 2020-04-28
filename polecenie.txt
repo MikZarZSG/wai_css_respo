@@ -1,0 +1,13 @@
+Utwórz responsywny układ  strony one page, w którym będzie 
+
+-menu: Start, O mnie, Galeria, Kontakt (menu poziome)  
+
+-treść strony, w której będą zawarte powyższe pozycje.   
+
+Galeria ma zawierać 12 zdjęć. Postaraj się zrobić 3 breakpointy wyświetlające 4 zdjęcia w jednym wierszu (duży ekran), 2 zdjęcia w jednym wierszu (mniejszy ekran,np.tablet), 1 zdjęcie w wierszu (ekran telefonu)   
+
+Z prawej strony umieść kolumnę sidebar, w której będą się znadować np. Ostatnie posty (kolumna wyświetla się tylko na dużym ekranie. Menu w układzie mobilnym wyświetla się pionowo (jedna pozycja w wierszu) i jest na środku strony. 
+
+Na dole umieść stopkę.
+
+Staraj się używać konwencji BEM  
