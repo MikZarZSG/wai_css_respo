@@ -7,11 +7,11 @@ body {
     color: #fff;
 }
 
-header {
+.header {
     background-color: #f74848;
 }
 
-h1 {
+.header .header_title {
     margin: 0;
     padding: 2vh 0;
     text-align: center;
@@ -19,7 +19,7 @@ h1 {
     font-weight: 700;
 }
 
-nav ul {
+.header_menu .header_menu--list {
     display: block;
     list-style-type: none;
     text-align: center;
@@ -27,23 +27,23 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
+.header_menu .header_menu--list .header_menu--item {
     display: inline-block;
     padding: 1vh 1vw;
     border-right: 1px dashed #fff;
 }
 
-nav ul li:first-child {
+.header_menu .header_menu--list .header_menu--item:first-child {
     border-left: 1px dashed #fff;
 }
 
-nav ul li a {
+.header_menu .header_menu--list .header_menu--item .header_menu--link {
     font-size: 1.5em;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
 
-nav ul li:hover {
+.header_menu .header_menu--list .header_menu--item:hover {
     background-color: #fa1616;
 }
