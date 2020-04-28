@@ -13,6 +13,37 @@ header {
 
 h1 {
     margin: 0;
-    padding: 1vh 0;
+    padding: 2vh 0;
     text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+nav ul {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1vh 1vw;
+    border-right: 1px dashed #fff;
+}
+
+nav ul li:first-child {
+    border-left: 1px dashed #fff;
+}
+
+nav ul li a {
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav ul li:hover {
+    background-color: #fa1616;
 }
