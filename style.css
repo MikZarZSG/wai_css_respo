@@ -62,11 +62,9 @@ body {
 
 .container .container__gallery .container__gallery--picture {
     width: 22.5%;
+    height: auto;
     margin: 1%;
     display: inline-block;
-    background-color: green;
-    
-    height: 20vh;
 }
 
 .container .container__news {
@@ -141,7 +139,8 @@ body {
 
     .container .container__gallery .container__gallery--picture {
         display: block;
-        width: 100%;
+        width: 94%;
+        margin: 3%;
     }
 
     .container .container__news {
