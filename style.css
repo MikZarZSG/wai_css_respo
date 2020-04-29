@@ -8,7 +8,6 @@ body {
 }
 
 /* NAGŁÓWEK KOMPUTER */
-
 .header {
     background-color: #f74848;
 }
@@ -54,13 +53,11 @@ body {
 .container {
     width: 80vw;
     margin: 0 auto;
-    background-color: aqua;
 }
 
 .container .container__gallery {
     width: 79.5%;
-    background-color: tomato;
-    display: inline-block;
+    float: left;
 }
 
 .container .container__gallery .container__gallery--picture {
@@ -75,13 +72,48 @@ body {
 .container .container__news {
     width: 20%;
     background-color: gray;
-    display: inline-block;
+    float: right;
+}
+
+.container .container--clear {
+    clear: both;
+}
+
+/* TABLET */
+@media only screen and (max-width: 1200px) {
+    /* NAGŁÓWEK TABLET */
+    .header .header_title {
+        font-size: 3.5em;
+    }
+    
+    .header_menu .header_menu--list .header_menu--item .header_menu--link {
+        font-size: 1.75em;
+    }
+    
+    /* TREŚĆ TABLET */
+    .container .container__gallery {
+        width: 100%;
+        float: none;
+    }
+
+    .container .container__gallery .container__gallery--picture {
+        width: 47.5%;
+        margin: 1%;
+    }
+
+    .container .container__news {
+        display: none;
+        float: none;
+    }
+
+    .container .container--clear {
+        clear: none;
+    }   
 }
 
 /* SMARTFON */
 @media only screen and (max-width: 500px) {
     /* NAGŁÓWEK SMARTFON */
-    
     .header .header_title {
         font-size: 4em;
     }
@@ -100,17 +132,24 @@ body {
     .header_menu .header_menu--list .header_menu--item .header_menu--link {
         font-size: 2.0em;
     }
-}
-
-/* TABLET */
-@media only screen and (max-width: 1200px) {
-    /* NAGŁÓWEK TABLET */
     
-    .header .header_title {
-        font-size: 3.5em;
+    /* TREŚĆ SMARTFON */
+    .container .container__gallery {
+        width: 100%;
+        float: none;
     }
-    
-    .header_menu .header_menu--list .header_menu--item .header_menu--link {
-        font-size: 1.75em;
+
+    .container .container__gallery .container__gallery--picture {
+        display: block;
+        width: 100%;
+    }
+
+    .container .container__news {
+        display: none;
+        float: none;
+    }
+
+    .container .container--clear {
+        clear: none;
     }
 }
