@@ -50,6 +50,34 @@ body {
     background-color: #fa1616;
 }
 
+/* TREŚĆ KOMPUTER */
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.container .container__gallery {
+    width: 79.5%;
+    background-color: tomato;
+    display: inline-block;
+}
+
+.container .container__gallery .container__gallery--picture {
+    width: 22.5%;
+    margin: 1%;
+    display: inline-block;
+    background-color: green;
+    
+    height: 20vh;
+}
+
+.container .container__news {
+    width: 20%;
+    background-color: gray;
+    display: inline-block;
+}
+
 /* SMARTFON */
 @media only screen and (max-width: 500px) {
     /* NAGŁÓWEK SMARTFON */
