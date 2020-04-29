@@ -55,6 +55,12 @@ body {
     margin: 0 auto;
 }
 
+.container .container__gallery .container__gallery--title {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
 .container .container__gallery {
     width: 79.5%;
     float: left;
@@ -89,6 +95,10 @@ body {
     }
     
     /* TREŚĆ TABLET */
+    .container .container__gallery .container__gallery--title {
+        font-size: 3em;
+    }
+    
     .container .container__gallery {
         width: 100%;
         float: none;
@@ -132,6 +142,10 @@ body {
     }
     
     /* TREŚĆ SMARTFON */
+    .container .container__gallery .container__gallery--title {
+        font-size: 3.5em;
+    }
+    
     .container .container__gallery {
         width: 100%;
         float: none;
