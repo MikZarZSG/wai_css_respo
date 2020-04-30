@@ -83,6 +83,31 @@ body {
     clear: both;
 }
 
+.container .container__news .container__news__title {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.container .container__news .container__news__item .container__news__item--link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.container .container__news .container__news__item .container__news__item--link:hover {
+    background-color: #6b77ff;
+}
+
+.container .container__news .container__news__item .container__news__item--link .container__news__item--title {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container .container__news .container__news__item .container__news__item--link .container__news__item--content {
+    text-align: justify;
+}
+
 /* TABLET */
 @media only screen and (max-width: 1200px) {
     /* NAGŁÓWEK TABLET */
