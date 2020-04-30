@@ -83,6 +83,7 @@ body {
     clear: both;
 }
 
+/* MENU BOCZNE KOMPUTER */
 .container .container__news .container__news__title {
     text-align: center;
     font-size: 2.5em;
@@ -106,6 +107,19 @@ body {
 
 .container .container__news .container__news__item .container__news__item--link .container__news__item--content {
     text-align: justify;
+    font-size: 1.25em;
+}
+
+/* STOPKA KOMPUTER */
+.footer {
+    background-color: #f74848;
+}
+
+.footer .footer_text {
+    font-size: 1.25em;
+    text-align: center;
+    margin: 0;
+    padding: 3vh 0;
 }
 
 /* TABLET */
@@ -133,7 +147,8 @@ body {
         width: 47.5%;
         margin: 1%;
     }
-
+    
+    /* MENU BOCZNE TABLET */
     .container .container__news {
         display: none;
         float: none;
@@ -181,7 +196,8 @@ body {
         width: 94%;
         margin: 3%;
     }
-
+    
+    /* MENU BOCZNE SMARTFON */
     .container .container__news {
         display: none;
         float: none;
